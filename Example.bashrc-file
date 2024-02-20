@@ -6,6 +6,12 @@ PS1='[\u@\h \W]\n$ '    # Don't forget to source the file after saving the file
 
 PS1='[\[\033[31m\]\d \t\[\033[0m\] \u@\h \W]\n$ '
 
+# Display Date and time in red and username and hostname in blue 
+
+PS1='[\[\033[31m\]\d \t\[\033[0m\] \[\033[34m\]\u@\h \[\033[0m\]\W]\n$ '
+
+# Display Date and time in red and username in blue and hostname in green
+PS1='[\[\033[31m\]\d \t\[\033[0m\] \[\033[34m\]\u@\[\033[32m\]\h \[\033[0m\]\W]\n$ '
 
 
 
