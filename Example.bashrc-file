@@ -1,0 +1,11 @@
+# To Get Command prompt after your username & hostname prompt line, add following line in your ~/.bashrc file
+PS1='[\u@\h \W]\n$ '    # Don't forget to source the file after saving the file
+
+# Command Prompt Styles
+# Display Date and time in red color 
+
+PS1='[\[\033[31m\]\d \t\[\033[0m\] \u@\h \W]\n$ '
+
+
+
+
